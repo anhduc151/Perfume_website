@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Great+Vibes&family=Roboto:wght@300;400;500&display=swap');
+
+$primary-color: #EAAB98;
+.hero{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    &__heading{
+        font-family: 'Great Vibes', cursiv;
+        color: $primary-color;
+        font-size: 5rem;
+        font-weight: 300;
+    }
+    &__title{
+        font-size: 6rem;
+        font-weight: 300;
+        color: #333;
+    }
+}

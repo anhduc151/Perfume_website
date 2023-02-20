@@ -1,0 +1,99 @@
+$primary-color: #81C1BE;
+.footer{
+    width: 100%;
+    min-height: 300px;
+    background-color: #1E1E1E;
+    color: white;
+    .footer__container{
+        height: 300px;
+        background-image: url(../../assets/images/footer-bg-2.png);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: initial;
+        .footer__item{
+            width: calc( calc(100% / 3) - 20px);
+            line-height: 26.5px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            .footer__logo{
+                font-size: 2rem;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .footer__info-item{
+                display: flex;
+                align-items: center;
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-bottom: 10px;
+                span{
+                    margin-left: 8px;
+                }
+                a{
+                    color: white;
+                    margin-left: 8px;
+                    &:hover{
+                        color: $primary-color;
+                        transition: .2s;
+                    }
+                }
+            }
+            .footer__item-heading{
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 20px;
+                
+            }
+            .footer__links{
+                display: flex;
+                gap: 50px;
+                .footer__links-left{
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 1.6rem;
+                    .links__item{
+                        color: white;
+                        margin-bottom: 10px;
+                        &:hover{
+                            color: $primary-color;
+                            transition: .2s;
+                        }
+                    }
+                }
+            }
+            .footer__input{
+                width: 100%;
+                height: 40px;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                border-bottom: 2px solid white;
+                color: white;
+                font-size: 1.7rem;
+                padding-bottom: 5px;
+                &::placeholder{
+                    color: white;
+                    font-size: 1.5rem;
+                }
+            }
+            .footer__btn{
+                width: 100%;
+                height: 50px;
+                background-color: transparent;
+                border: 2px solid white;
+                margin-top: 15px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 1.6rem;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+    }
+}

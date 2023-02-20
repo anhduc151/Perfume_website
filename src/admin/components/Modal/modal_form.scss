@@ -1,0 +1,49 @@
+
+.form__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    .form__image{
+        width: 200px;
+        height: 200px;
+        img{
+            width: 100%;
+        }
+    }
+    .form__input{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .btn_edit, .btn_save{
+            width: max-content;
+            padding: 8px 20px;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #1677FF;
+            margin-top: 10px;
+        }
+    }
+}
+.btn__table{
+    width: max-content;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #1677FF;
+    margin-top: 10px;
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+    .product__img{
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,20 @@
+.logo{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .info{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
+.icon{
+    cursor: pointer;
+}

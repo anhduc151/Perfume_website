@@ -1,0 +1,91 @@
+$primary-color: #81C1BE;
+.product__item{
+    // width: calc( calc(100% / 4) - 20px);
+    margin-bottom: 50px;
+    min-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .product__img{
+        width: 100%;
+        max-height: 280px;
+        border: 3px solid #333;
+        img{
+            object-fit: cover;
+        }
+        
+    }
+    .product__item-sale{
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        width: max-content;
+        padding: 8px 15px;
+        background-color: black;
+        font-size: 1.7rem;
+        color: white;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -8px;
+            left: 3px;
+            border-color: black transparent transparent transparent;
+            border-style: solid;
+            border-width: 8px 8px 8px 8px;
+            height: 0px;
+            width: 0px;
+            transform: rotate(-45deg);
+        }
+    }
+    .product__name{
+        font-size: 1.6rem;
+        padding: 15px 0;
+        color: #333;
+    }
+    .product__btns{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        color: #333;
+        justify-content: space-between;
+        .product__btns-item{
+            width: calc(100% / 2);
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            font-size: 1.5rem;
+            line-height: 60px;
+            text-align: center;
+            &:nth-child(1){
+                border-left: 1px solid #333;
+                border-right: 1px solid #333;
+                font-weight: 600;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    transition:  all .3s;
+                }
+            }
+            &:nth-child(2){
+                border-right: 1px solid #333;
+                color: $primary-color;
+            }
+            
+        }
+    }
+    .product__item-heart{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+.message__favorite{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}

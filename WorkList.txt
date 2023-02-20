@@ -1,0 +1,28 @@
+------Chức năng-------
+[x] Hiển thị Username khi đăng nhập
+[x] Thêm vào giỏ hàng
+[x] Gửi productsCart tư localStorage sang redux
+[x] Xóa sản phẩm trong giỏ hàng (hover)
+[x] Show thông tin chi tiết trong giỏ hàng và thêm vào giỏ hàng theo số lượng
+[x] Update field quantity lên Database
+[x] Update lại giỏ hàng khi tăng số lượng trong Chi tiết sản phẩm
+[x] Fix quantity không update ở giỏ hàng trong Navbar.js
+[] Thanh toán giỏ hàng
+[] Thêm vào danh sách yêu thích
+[] Lọc theo loại
+[] Lọc theo giá
+[] Lọc theo thời gian
+[] Lọc theo tag
+[] Validate Login , Register ...
+------UI-------------
+[] Trang Contact
+[] Trang Danh sách Sản phẩm yêu thích
+[] Trang tìm kiếm
+[] Trang Admin
+------SERVER---------
+[] Route Style/Men
+[] Route Style/Women
+[] Route Tìm kiếm Product
+[] Route Danh sách lượt thích
+[] Route thêm, xóa, sửa , cập nhật sản phẩm
+[] Phân quyền

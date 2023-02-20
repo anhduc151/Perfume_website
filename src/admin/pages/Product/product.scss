@@ -1,0 +1,17 @@
+.navbar__input{
+    display: flex;
+    gap: 10px;
+    .search__input{
+        width: 20%;
+    }
+}
+
+.desc{
+    .product__desc{
+        width: 300px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+    }
+}
